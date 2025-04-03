@@ -34,7 +34,7 @@ function Card(props) {
       {props.image && <img src={props.image} alt="" className="" />}
       <div className="grid gap-2 group-has-[img]:p-4">
         {props.title && (
-          <h2 className="text-xl font-medium not-[:has(img)]:text-2xl">
+          <h2 className="text-xl font-medium group-not-[:has(img)]:text-2xl">
             {props.title}
           </h2>
         )}
